@@ -1,4 +1,10 @@
 .left-menu {
     background-color: #343a40;
-    height: 94.23vh;
+    height: 100%;
+}
+.left-menu .nav-link {
+    border-bottom: solid 1px #34495e;
+}
+.left-menu-top {
+    border-top: solid 1px #34495e;
 }

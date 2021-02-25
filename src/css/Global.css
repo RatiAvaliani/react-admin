@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'bpgGlaho';
+    src: url(./../fonts/bpg_glaho.ttf);
+}
+html, body {
+    font-family: 'bpgGlaho';
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+section, .container, .container-fluid, .row {
+    height: 100%;
+}
+.navbar {
+    border-bottom: solid 2px #487db1;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    border: solid #34495e 1px;
+    margin: 0 5px;
+}
+.fa.fa-minus-square {
+    font-size: 22px;
+    display: block;
+    color: #de3030;
+    position: relative;
+    left: 11%;
+}
+.fa.fa-pen-square {
+    font-size: 22px;
+    display: block;
+    color: #34495e;
+    position: relative;
+    left: 11%;
+}
+.fa.fa-link {
+    font-size: 22px;
+    display: block;
+    color: #3510ff;
+    position: relative;
+    left: 11%;
+}
